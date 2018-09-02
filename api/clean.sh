@@ -3,4 +3,5 @@ set -eu
 SCRIPT_DIR="$(dirname -- "$0")"
 cd "$SCRIPT_DIR"
 
-api/clean.sh
+rm -rf dist
+rm -rf node_modules
