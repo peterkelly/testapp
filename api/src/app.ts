@@ -7,7 +7,7 @@ const app = express();
 
 app.get("/", (req, res) => {
     res.contentType("text/plain");
-    res.send("Hello World\n");
+    res.send("Hello from API service\n");
 });
 
 app.get("/state", (req, res) => {

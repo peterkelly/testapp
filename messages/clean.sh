@@ -3,6 +3,5 @@ set -eu
 SCRIPT_DIR="$(dirname -- "$0")"
 cd "$SCRIPT_DIR"
 
-api/build.sh
-accounts/build.sh
-messages/build.sh
+rm -rf dist
+rm -rf node_modules
